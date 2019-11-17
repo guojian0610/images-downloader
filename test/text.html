@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button id="btn">点击下载</button>
+  <script src="assets/imagesDownloader.js"></script>
+  <script>
+    document.getElementById('btn').addEventListener("click", function(){
+      imagesDownloader.default({
+        urls: [
+        'https://search.imtt.qq.com/bowuguan/vrbrowser/armuseum/wx_code/20206609_9ff4984efbe64f5a74d123dc1fc4f21c.jpg',
+        'https://search.imtt.qq.com/bowuguan/vrbrowser/armuseum/wx_code/20206608_a923d28871d81e0ea6607e595f8457c4.jpg'
+        ],
+        name: 'images'
+      })
+    })
+  </script>
+</body>
+</html>
