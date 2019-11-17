@@ -2,7 +2,7 @@
   "name": "images-downloader",
   "version": "1.0.0",
   "description": "images-downloader",
-  "main": "index.js",
+  "main": "./dist/imagesDownloader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "NODE_ENV=production webpack --config webpack.config.js --mode=production",
